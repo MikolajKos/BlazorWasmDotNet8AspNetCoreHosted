@@ -1,0 +1,11 @@
+lines in program.cs:
+	deleted:
+		 builder.services.addControllers();
+	added:
+		builder.Services.AddControllersWithViews();
+		builder.Services.AddRazorPages();
+
+in // Configure the HTTP request pipeline.
+	added:
+		app.UseWebAssemblyDebugging();
+
